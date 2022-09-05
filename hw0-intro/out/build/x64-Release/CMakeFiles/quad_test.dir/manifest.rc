@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "F:/CourseResouces/CS184/hw0-intro/out/build/x64-Release/CMakeFiles/quad_test.dir/embed.manifest"

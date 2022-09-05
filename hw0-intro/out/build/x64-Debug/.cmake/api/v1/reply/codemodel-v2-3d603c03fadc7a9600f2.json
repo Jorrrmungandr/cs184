@@ -1,0 +1,215 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "CGL",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CGL-Debug-11ee1ce43757d7d9e5f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "CGL"
+				},
+				{
+					"build" : "CGL/deps/freetype",
+					"jsonFile" : "directory-CGL.deps.freetype-Debug-77fadadc91cd2f318e26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "CGL/deps/freetype"
+				},
+				{
+					"build" : "CGL/deps/glew",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CGL.deps.glew-Debug-189b1a89fc25304e9dfa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "CGL/deps/glew",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "CGL/deps/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-CGL.deps.glfw-Debug-1e86cc3f6fc750b8c625.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "CGL/deps/glfw"
+				},
+				{
+					"build" : "CGL/deps/glfw/src",
+					"jsonFile" : "directory-CGL.deps.glfw.src-Debug-f7365cd69351d4d98341.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "CGL/deps/glfw/src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "CGL/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CGL.src-Debug-2783bc2ace7b455d306f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "CGL/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HW0",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6
+					],
+					"name" : "CGL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "CGL::@471a8420bb23f6744067",
+					"jsonFile" : "target-CGL-Debug-f5657cbb370daccdb0e3.json",
+					"name" : "CGL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew::@7bafe57aeea771ebdd0a",
+					"jsonFile" : "target-glew-Debug-3bf27d31232c65c5026b.json",
+					"name" : "glew",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@3a9041b068fa7b25e39f",
+					"jsonFile" : "target-glfw-Debug-a831bcfa99a333859cc0.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quad_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quad_test-Debug-806668b4d2da69ba9682.json",
+					"name" : "quad_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/CourseResouces/CS184/hw0-intro/out/build/x64-Debug",
+		"source" : "F:/CourseResouces/CS184/hw0-intro"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
